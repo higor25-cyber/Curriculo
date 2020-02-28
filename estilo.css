@@ -2,12 +2,12 @@ h2{
 color :black;
 border: solid currentColor darkgray;
 text-align: center;
-font: normal 20px 'Cookie', small;
+font: normal 25px 'Cookie', larger;
 }
  h1{ 
     font-size: 4em;
-    background-color: aqua;
-    border-color: black;
+    background-color:aqua;
+    border-color: rgb(26, 26, 26);
     border-style: double;
     text-align: center;
    }
@@ -16,5 +16,8 @@ font: normal 20px 'Cookie', small;
    }
    h3{
       font: normal 25px 'Cookie', cursive;
+   }
+   img{
+      image :right;
    }
 
