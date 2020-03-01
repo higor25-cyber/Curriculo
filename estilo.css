@@ -1,23 +1,36 @@
 h2{
 color :black;
 border: solid currentColor darkgray;
-text-align: center;
+left: 120px;
 font: normal 25px 'Cookie', larger;
+font-style: 'text-decoration: underline';
 }
  h1{ 
     font-size: 4em;
-    background-color:aqua;
-    border-color: rgb(26, 26, 26);
+    background-color:grey;
+    border-color:black(26, 26, 26);
     border-style: double;
     text-align: center;
    }
    body{
       background-color:silver;
+      border-color: black;
+      border-style: groove;
+      
    }
+     
    h3{
       font: normal 25px 'Cookie', cursive;
    }
    img{
-      image :right;
+      position:absolute;
+      left: 815px;
+      top: 150px;
    }
+   dl{
+      position: relative;
+      left: 50px;
+      font-style: normal 10px 'Cookie',larger;
+   }
+   
 
