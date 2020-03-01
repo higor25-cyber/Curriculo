@@ -1,14 +1,16 @@
 h2{
 color :black;
 border: solid currentColor darkgray;
-left: 120px;
+left: 200px;
+right: 200px;
 font: normal 25px 'Cookie', larger;
-font-style: 'text-decoration: underline';
+text-decoration: underline;
+text-decoration-color: darkcyan;
 }
  h1{ 
     font-size: 4em;
-    background-color:grey;
-    border-color:black(26, 26, 26);
+    background-color:rgb(146, 146, 146);
+    border-color:darkcyan;
     border-style: double;
     text-align: center;
    }
@@ -16,21 +18,36 @@ font-style: 'text-decoration: underline';
       background-color:silver;
       border-color: black;
       border-style: groove;
-      
    }
      
    h3{
-      font: normal 25px 'Cookie', cursive;
+      font: normal 30px 'Cookie', cursive;
+      position: relative;
+      left: 200px;
+      text-decoration: underline;
    }
    img{
       position:absolute;
       left: 815px;
       top: 150px;
+      border: double 5px;
    }
    dl{
       position: relative;
       left: 50px;
-      font-style: normal 10px 'Cookie',larger;
+      font: normal 20px 'Cookie', small;
+     
    }
+   dd{
+      font: normal 20px 'Cookie', small;
+      text-decoration: underline;
+   }
+   ul{
+      font: normal 20px 'Cookie', small;
+      text-decoration: underline;
+
+   }
+   
+   
    
 
