@@ -6,6 +6,8 @@ right: 200px;
 font: normal 25px 'Cookie', cursive;
 text-decoration: underline;
 text-decoration-color: darkcyan;
+position: relative;
+left: 5px;
 }
  h1{ 
     font-size: 4em;
@@ -15,7 +17,7 @@ text-decoration-color: darkcyan;
     text-align: center;
    }
    body{
-      background-color:silver;
+      background-color:rgb(204, 204, 204);
       border-color: black;
       border-style: groove;
    }
@@ -23,7 +25,7 @@ text-decoration-color: darkcyan;
    h3{
       font: normal 30px 'Cookie', cursive;
       position: relative;
-      text-align: center;
+      left: 5px;
       text-decoration: underline;
    }
    img{
@@ -35,16 +37,18 @@ text-decoration-color: darkcyan;
    dl{
       position: relative;
       left: 50px;
-      font: normal 20px 'Cookie', small;
+      font: normal 20px 'Cookie', bold;
+      
      
    }
    dd{
-      font: normal 20px 'Cookie', small;
+      font: normal 20px 'Cookie', bold;
       text-decoration: underline;
+      
    }
    ul{
-      font: normal 20px 'Cookie', small;
-      text-decoration: underline;
+      font: normal 20px 'Cookie', bold;
+      
 
    }
    
