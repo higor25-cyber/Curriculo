@@ -1,23 +1,27 @@
 h2{
-color :black;
+color :white;
 border: solid currentColor darkgray;
 left: 200px;
 right: 200px;
 font: normal 25px 'Cookie', cursive;
 text-decoration: underline;
-text-decoration-color: darkcyan;
+text-decoration-color: white;
 position: relative;
-left: 5px;
+left: 0px;
+background-color: rgb(63, 63, 63);
+border: double ;
+border-color: white ;
 }
  h1{ 
+    color: white;
     font-size: 4em;
-    background-color:rgb(146, 146, 146);
-    border-color:darkcyan;
+    background-color:rgb(63, 63, 63);
+    border-color:white;
     border-style: double;
     text-align: center;
    }
    body{
-      background-color:rgb(204, 204, 204);
+      background-color:rgb(147, 233, 224);
       border-color: black;
       border-style: groove;
    }
@@ -30,8 +34,8 @@ left: 5px;
    }
    img{
       position:absolute;
-      left: 1150px;
-      top: 150px;
+      left: 1350px;
+      top: 180px;
       border: double 8px;
    }
    dl{
@@ -52,6 +56,9 @@ left: 5px;
 
    }
    
+   
+   
+
    
    
 
